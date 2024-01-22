@@ -7,10 +7,10 @@ class CustomSmarty extends Smarty {
     {
         parent::__construct();
 
-        $this->setTemplateDir('/some/template/dir');
-        $this->setConfigDir('/some/config/dir');
-        $this->setCompileDir('/some/compile/dir');
-        $this->setCacheDir('/some/cache/dir');
+        $this->setTemplateDir('../layouts');
+        $this->setCompileDir('../templates_c');
+        $this->setPluginsDir('../plugins_c');
+        $this->setCacheDir('../cache_c');
 
         $this->debugging = false;
         $this->caching = false;

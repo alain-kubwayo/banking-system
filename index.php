@@ -6,3 +6,4 @@ echo "Hello World";
 
 $smarty = new CustomSmarty();
 
+

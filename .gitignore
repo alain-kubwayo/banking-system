@@ -1,3 +1,7 @@
-.idea
+.idea/*
 config.php
-vendor
+vendor/*
+templates_c/*
+cache_c/*
+plugins_c/*
+
